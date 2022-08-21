@@ -1,54 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .entry {
   display: flex;
+  flex: horizontal;
   width: 100vw;
   height: 200px;
+  padding-top: 20px;
 }
 
 img {
   height: 200px;
   width: 175px;
-  position: absolute;
-  border-radius: 5px;
-  left: 40px;
-  top: 100px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.entry {
+  height: 200px;
+}
+
+.entry--words {
+  width: 80vw;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  overflow: hidden;
+}
+
+.entry--country {
+  display: flex;
+  flex: horizontal;
+  align-items: center;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.entry--countryLink {
+  color: grey;
+  padding: 0px;
+  margin: 0px;
+}
+
+.entry--location {
+  margin: 0px;
+  padding: 0px;
+}
+
+.entry--countryText {
+  letter-spacing: 0.15em;
+  font-weight: 600;
+}
+
+.entry--date {
+  margin: 0px;
+  margin-top: 15px;
+  font-weight: 650;
+}
+
+.entry--description {
+  margin: 0px;
+  padding: 0px;
 }
