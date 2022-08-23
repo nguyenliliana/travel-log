@@ -35,6 +35,10 @@ img {
   margin: 0px;
 }
 
+img {
+  border-radius: 25px;
+}
+
 
 .entry--countryLink {
   color: grey;
@@ -61,4 +65,12 @@ img {
 .entry--description {
   margin: 0px;
   padding: 0px;
+}
+
+.location-symbol {
+  height: 1em;
+  width: 1em;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 10px;
 }
